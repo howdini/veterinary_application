@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "creation": "2021-05-12 10:53:52.296111",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "animal",
+  "date",
+  "bull_code",
+  "heat_repeat",
+  "pd_exam",
+  "due_date",
+  "actual_date",
+  "post_partum",
+  "calving_ease",
+  "technician",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "animal",
+   "fieldtype": "Link",
+   "label": "Animal",
+   "options": "Animals"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bull_code",
+   "fieldtype": "Data",
+   "label": "BullCode"
+  },
+  {
+   "fieldname": "heat_repeat",
+   "fieldtype": "Date",
+   "label": "Heat Repeat"
+  },
+  {
+   "fieldname": "pd_exam",
+   "fieldtype": "Date",
+   "label": "PD Exam"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "actual_date",
+   "fieldtype": "Date",
+   "label": "Actual Date"
+  },
+  {
+   "fieldname": "post_partum",
+   "fieldtype": "Select",
+   "label": "Post-Partum Test",
+   "options": "[Ok,Retained]"
+  },
+  {
+   "fieldname": "calving_ease",
+   "fieldtype": "Select",
+   "label": "Calving Ease",
+   "options": "[Easy,Difficult]"
+  },
+  {
+   "fieldname": "technician",
+   "fieldtype": "Link",
+   "label": "Technician",
+   "options": "Field Technicians"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-05-18 11:32:03.311382",
+ "modified_by": "Administrator",
+ "module": "Veterinary Application",
+ "name": "Servicing Records",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

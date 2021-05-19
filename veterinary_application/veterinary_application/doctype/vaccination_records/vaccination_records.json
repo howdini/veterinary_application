@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "creation": "2021-05-12 10:31:25.793418",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "animal",
+  "date",
+  "immunization",
+  "next_immunization",
+  "technician"
+ ],
+ "fields": [
+  {
+   "fieldname": "animal",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Animal",
+   "options": "Animals",
+   "reqd": 1
+  },
+  {
+   "fieldname": "immunization",
+   "fieldtype": "Link",
+   "label": "Immunization",
+   "options": "Vaccines"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date Vaccinated"
+  },
+  {
+   "fieldname": "next_immunization",
+   "fieldtype": "Date",
+   "label": "Next Immunization"
+  },
+  {
+   "fieldname": "technician",
+   "fieldtype": "Link",
+   "label": "Technician",
+   "options": "Field Technicians"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-05-12 10:34:14.876805",
+ "modified_by": "Administrator",
+ "module": "Veterinary Application",
+ "name": "Vaccination Records",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

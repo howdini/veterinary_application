@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "creation": "2021-05-11 12:09:24.611501",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "animal_name",
+  "dob",
+  "eartag",
+  "breed",
+  "weight",
+  "size",
+  "insurer",
+  "policy_no",
+  "parent_sire",
+  "parent_dam",
+  "code",
+  "geneology",
+  "classification",
+  "status",
+  "calving_date",
+  "gender",
+  "birth_weight",
+  "birth_size",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "animal_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "eartag",
+   "fieldtype": "Data",
+   "label": "EarTag"
+  },
+  {
+   "fieldname": "breed",
+   "fieldtype": "Link",
+   "label": "Breed",
+   "options": "Breeds"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "label": "Size"
+  },
+  {
+   "fieldname": "insurer",
+   "fieldtype": "Link",
+   "label": "Insurance Firm",
+   "options": "Insurance Firms"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy Number"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "Code"
+  },
+  {
+   "fieldname": "geneology",
+   "fieldtype": "Data",
+   "label": "Geneology"
+  },
+  {
+   "fieldname": "classification",
+   "fieldtype": "Data",
+   "label": "Classification"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "[Alive, Sold, Deceased, Others]"
+  },
+  {
+   "fieldname": "calving_date",
+   "fieldtype": "Date",
+   "label": "Calving Date"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "[Male,Female]"
+  },
+  {
+   "fieldname": "birth_weight",
+   "fieldtype": "Float",
+   "label": "Birth Weight"
+  },
+  {
+   "fieldname": "birth_size",
+   "fieldtype": "Select",
+   "label": "Birth Size",
+   "options": "[Small, Medium, Large]"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "parent_sire",
+   "fieldtype": "Link",
+   "label": "Parent Sire",
+   "options": "Animals"
+  },
+  {
+   "fieldname": "parent_dam",
+   "fieldtype": "Link",
+   "label": "Parent Dam",
+   "options": "Animals"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-05-14 15:51:59.954062",
+ "modified_by": "Administrator",
+ "module": "Veterinary Application",
+ "name": "Animals",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
