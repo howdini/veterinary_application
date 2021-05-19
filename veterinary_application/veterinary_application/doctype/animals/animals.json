@@ -6,6 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "animal_name",
+  "farm",
   "dob",
   "eartag",
   "breed",
@@ -129,11 +130,17 @@
    "fieldtype": "Link",
    "label": "Parent Dam",
    "options": "Animals"
+  },
+  {
+   "fieldname": "farm",
+   "fieldtype": "Link",
+   "label": "Farm",
+   "options": "Farms"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-14 15:51:59.954062",
+ "modified": "2021-05-19 13:05:02.357453",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
  "name": "Animals",
