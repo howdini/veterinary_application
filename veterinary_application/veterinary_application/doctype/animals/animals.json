@@ -1,11 +1,13 @@
 {
  "actions": [],
+ "autoname": "format:{animal_name}[{farmer_id}]",
  "creation": "2021-05-11 12:09:24.611501",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "animal_name",
+  "farmer_id",
   "farm",
   "dob",
   "eartag",
@@ -17,7 +19,6 @@
   "parent_sire",
   "parent_dam",
   "code",
-  "geneology",
   "classification",
   "status",
   "calving_date",
@@ -57,8 +58,9 @@
   },
   {
    "fieldname": "size",
-   "fieldtype": "Data",
-   "label": "Size"
+   "fieldtype": "Select",
+   "label": "Size",
+   "options": "Small\nMedium\nLarge"
   },
   {
    "fieldname": "insurer",
@@ -77,20 +79,16 @@
    "label": "Code"
   },
   {
-   "fieldname": "geneology",
-   "fieldtype": "Data",
-   "label": "Geneology"
-  },
-  {
    "fieldname": "classification",
-   "fieldtype": "Data",
-   "label": "Classification"
+   "fieldtype": "Select",
+   "label": "Classification",
+   "options": "Pool\nFoundation\nIntermediate\nAppendix\nPedigree"
   },
   {
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "[Alive, Sold, Deceased, Others]"
+   "options": "Alive\nSold\nDeceased\nOthers"
   },
   {
    "fieldname": "calving_date",
@@ -101,7 +99,7 @@
    "fieldname": "gender",
    "fieldtype": "Select",
    "label": "Gender",
-   "options": "[Male,Female]"
+   "options": "Male\nFemale"
   },
   {
    "fieldname": "birth_weight",
@@ -112,7 +110,7 @@
    "fieldname": "birth_size",
    "fieldtype": "Select",
    "label": "Birth Size",
-   "options": "[Small, Medium, Large]"
+   "options": "Small\nMedium\nLarge"
   },
   {
    "fieldname": "remarks",
@@ -136,11 +134,16 @@
    "fieldtype": "Link",
    "label": "Farm",
    "options": "Farms"
+  },
+  {
+   "fieldname": "farmer_id",
+   "fieldtype": "Data",
+   "label": "Farmer ID"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-19 13:05:02.357453",
+ "modified": "2021-05-20 11:37:09.608857",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
  "name": "Animals",

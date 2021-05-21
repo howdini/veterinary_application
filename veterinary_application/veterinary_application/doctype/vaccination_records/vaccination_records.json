@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "autoname": "format:{animal}[{immunization}-{date}]",
  "creation": "2021-05-12 10:31:25.793418",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -45,7 +46,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-12 10:34:14.876805",
+ "modified": "2021-05-21 10:48:46.293372",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
  "name": "Vaccination Records",

@@ -1,13 +1,15 @@
 {
  "actions": [],
+ "autoname": "format:{animal}[{year} {month}]",
  "creation": "2021-05-12 10:48:10.872717",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "animal",
-  "date",
-  "weight"
+  "year",
+  "month",
+  "milk_weight"
  ],
  "fields": [
   {
@@ -17,19 +19,26 @@
    "options": "Animals"
   },
   {
-   "fieldname": "date",
-   "fieldtype": "Date",
-   "label": "Month"
-  },
-  {
-   "fieldname": "weight",
+   "fieldname": "milk_weight",
    "fieldtype": "Float",
    "label": "Weight"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "label": "Month",
+   "options": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Select",
+   "label": "Year",
+   "options": "2021\n2022\n2023\n2024\n2025\n2000\n2000\n2000\n2000\n2000"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-12 10:48:10.872717",
+ "modified": "2021-05-20 13:58:28.497647",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
  "name": "Milk Production",

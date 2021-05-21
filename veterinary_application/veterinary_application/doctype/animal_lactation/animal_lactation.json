@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "autoname": "format:{animal}[{sdate}]",
  "creation": "2021-05-12 10:46:13.048590",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -29,7 +30,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-12 10:46:13.048590",
+ "modified": "2021-05-20 16:19:21.277779",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
  "name": "Animal Lactation",

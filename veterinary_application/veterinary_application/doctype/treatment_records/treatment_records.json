@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "autoname": "format:{animal}[{diagnosis}-{date}]",
  "creation": "2021-05-12 10:38:32.602900",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -45,7 +46,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-12 10:38:32.602900",
+ "modified": "2021-05-21 10:49:34.371749",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
  "name": "Treatment Records",

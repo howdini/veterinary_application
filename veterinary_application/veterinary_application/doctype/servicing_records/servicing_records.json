@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "autoname": "format:{animal}[{date}]",
  "creation": "2021-05-12 10:53:52.296111",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -58,13 +59,13 @@
    "fieldname": "post_partum",
    "fieldtype": "Select",
    "label": "Post-Partum Test",
-   "options": "[Ok,Retained]"
+   "options": "Ok\nRetained"
   },
   {
    "fieldname": "calving_ease",
    "fieldtype": "Select",
    "label": "Calving Ease",
-   "options": "[Easy,Difficult]"
+   "options": "Easy\nDifficult"
   },
   {
    "fieldname": "technician",
@@ -80,7 +81,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-18 11:32:03.311382",
+ "modified": "2021-05-21 10:47:27.569973",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
  "name": "Servicing Records",
