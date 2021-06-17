@@ -1,39 +1,34 @@
 {
  "actions": [],
- "autoname": "format:{animal}[{s_date}]",
- "creation": "2021-05-12 10:46:13.048590",
+ "autoname": "format:{insurer}",
+ "creation": "2021-05-29 12:07:44.730746",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "animal",
-  "s_date",
-  "e_date"
+  "insurer",
+  "contacts"
  ],
  "fields": [
   {
-   "fieldname": "animal",
-   "fieldtype": "Link",
-   "label": "Animal",
-   "options": "Animals"
+   "fieldname": "insurer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Insurer",
+   "reqd": 1
   },
   {
-   "fieldname": "s_date",
-   "fieldtype": "Date",
-   "label": "Start Date"
-  },
-  {
-   "fieldname": "e_date",
-   "fieldtype": "Date",
-   "label": "End Date"
+   "fieldname": "contacts",
+   "fieldtype": "Data",
+   "label": "Contacts"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-26 10:45:09.386897",
+ "modified": "2021-05-29 12:07:44.730746",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
- "name": "Animal Lactation",
+ "name": "Insurer",
  "owner": "Administrator",
  "permissions": [
   {

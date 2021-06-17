@@ -1,39 +1,37 @@
 {
  "actions": [],
- "autoname": "format:{animal}[{s_date}]",
- "creation": "2021-05-12 10:46:13.048590",
+ "autoname": "format:{ward}",
+ "creation": "2021-05-29 11:56:28.501759",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "animal",
-  "s_date",
-  "e_date"
+  "ward",
+  "subcounty"
  ],
  "fields": [
   {
-   "fieldname": "animal",
+   "fieldname": "ward",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ward",
+   "reqd": 1
+  },
+  {
+   "fieldname": "subcounty",
    "fieldtype": "Link",
-   "label": "Animal",
-   "options": "Animals"
-  },
-  {
-   "fieldname": "s_date",
-   "fieldtype": "Date",
-   "label": "Start Date"
-  },
-  {
-   "fieldname": "e_date",
-   "fieldtype": "Date",
-   "label": "End Date"
+   "in_list_view": 1,
+   "label": "Subcounty",
+   "options": "Subcounty",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-05-26 10:45:09.386897",
+ "modified": "2021-05-29 12:00:30.210567",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
- "name": "Animal Lactation",
+ "name": "Ward",
  "owner": "Administrator",
  "permissions": [
   {
