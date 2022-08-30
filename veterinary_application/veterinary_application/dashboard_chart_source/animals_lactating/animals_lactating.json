@@ -1,0 +1,13 @@
+{
+ "creation": "2021-09-02 12:47:11.200914",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2021-09-02 12:56:20.509852",
+ "modified_by": "Administrator",
+ "module": "Veterinary Application",
+ "name": "Animals Lactating",
+ "owner": "Administrator",
+ "source_name": "Animals Lactating",
+ "timeseries": 1
+}
