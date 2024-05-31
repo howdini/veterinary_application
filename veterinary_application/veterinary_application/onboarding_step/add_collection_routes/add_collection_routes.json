@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Create collection routes",
+ "creation": "2024-05-20 13:24:40.846938",
+ "description": "Every rider and farmer/member will be assigned to a route for beter management and reporting. This routes must be created first.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 8,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-21 11:46:26.835006",
+ "modified_by": "Administrator",
+ "name": "Add Collection Routes",
+ "owner": "Administrator",
+ "reference_document": "Dairy Routes",
+ "show_form_tour": 0,
+ "show_full_form": 1,
+ "title": "Add Collection Routes",
+ "validate_action": 1
+}

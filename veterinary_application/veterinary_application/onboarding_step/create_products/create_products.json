@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Add Item Products",
+ "creation": "2024-05-20 10:38:29.511922",
+ "description": "The specific item to be collected and weighed, plus the others that the riders, POS and cooler attendants will need to manage on the mobile applications need to be included here in the ERPNext stock items list. ",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 11,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-20 14:22:42.964931",
+ "modified_by": "Administrator",
+ "name": "Create Products",
+ "owner": "Administrator",
+ "reference_document": "Item",
+ "show_form_tour": 0,
+ "show_full_form": 1,
+ "title": "Add Products",
+ "validate_action": 1
+}

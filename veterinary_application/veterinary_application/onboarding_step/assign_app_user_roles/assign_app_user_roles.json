@@ -1,0 +1,23 @@
+{
+ "action": "Update Settings",
+ "action_label": "Set user roles and settings",
+ "creation": "2024-05-20 13:45:59.956674",
+ "description": "Assign default settings and roles to the individual mobile users.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "field": "status",
+ "idx": 8,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-21 12:01:52.603694",
+ "modified_by": "Administrator",
+ "name": "Assign App User Roles",
+ "owner": "Administrator",
+ "reference_document": "Dairy Privileges",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Assign Riders and Cooler/Store Attendants",
+ "validate_action": 1,
+ "value_to_validate": "Accepted"
+}

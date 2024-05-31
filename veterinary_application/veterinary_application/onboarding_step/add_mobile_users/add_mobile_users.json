@@ -1,0 +1,23 @@
+{
+ "action": "Update Settings",
+ "action_label": "Confirm request",
+ "creation": "2024-05-21 12:09:58.354494",
+ "description": "After having the riders download and install the application, they will make a formal request from the app to the server seeking access. We need to confirm their request to transact with the ERP.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "field": "status",
+ "idx": 3,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-21 12:09:58.354494",
+ "modified_by": "Administrator",
+ "name": "Add Mobile Users",
+ "owner": "Administrator",
+ "reference_document": "Dairy Mobiles",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Add Mobile Users",
+ "validate_action": 1,
+ "value_to_validate": "Accepted"
+}

@@ -1,0 +1,29 @@
+{
+ "allow_roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "creation": "2024-05-28 13:07:22.239605",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "codicltd.co.ke",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2024-05-28 13:28:40.426822",
+ "modified_by": "Administrator",
+ "module": "Veterinary Application",
+ "name": "Veterinary",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "Setup Dairy Module"
+  },
+  {
+   "step": "Setup on Mobile App"
+  }
+ ],
+ "subtitle": "Farmers, Farms, Livestock and Vets",
+ "success_message": "The Veterinary Module is all set up!",
+ "title": "Let's Set Up the Veterinary Module."
+}

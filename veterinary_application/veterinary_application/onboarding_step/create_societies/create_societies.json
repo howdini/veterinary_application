@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Add society",
+ "creation": "2024-05-20 10:33:49.298243",
+ "description": "The dairy application, whilst designed to work with multiple societies under a single umbrealla or union, it will accept to support a single one. But there must exist at least one society to operate the dairy application. The society must first be listed under suppliers to be selectable here.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 7,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-21 11:59:42.669341",
+ "modified_by": "Administrator",
+ "name": "Create Societies",
+ "owner": "Administrator",
+ "reference_document": "Dairy Organization",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Add Societies",
+ "validate_action": 1
+}

@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Add Store/Cooler",
+ "creation": "2024-05-20 10:37:32.995274",
+ "description": "We need to add our collection storage warehouses to the dairy application. This will be loaded from the already created ERPNext warehouses. ",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 11,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-20 14:01:08.557966",
+ "modified_by": "Administrator",
+ "name": "Create Coolers",
+ "owner": "Administrator",
+ "reference_document": "Dairy Cooler",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Add Stores Or Coolers",
+ "validate_action": 1
+}

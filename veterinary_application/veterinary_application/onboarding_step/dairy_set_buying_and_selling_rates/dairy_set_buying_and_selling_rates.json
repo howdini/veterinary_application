@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Set current rates",
+ "creation": "2024-05-28 11:07:05.249263",
+ "description": "The current dairy cost and selling prices need to be set for transactions to be done on the dairy module and mobile applications.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-28 11:12:48.491003",
+ "modified_by": "Administrator",
+ "name": "Dairy Set Buying and Selling Rates",
+ "owner": "Administrator",
+ "reference_document": "Dairy Rates",
+ "show_form_tour": 0,
+ "show_full_form": 1,
+ "title": "Set Buying and Selling Rates",
+ "validate_action": 1
+}

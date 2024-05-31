@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Select customers",
+ "creation": "2024-05-21 12:16:46.687964",
+ "description": "From the list of ERPNext available customers select those that will be acting as our customers on the application.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 1,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-21 12:20:05.827356",
+ "modified_by": "Administrator",
+ "name": "Select Dairy Customers",
+ "owner": "Administrator",
+ "reference_document": "Dairy Customers",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Select Dairy Customers",
+ "validate_action": 1
+}

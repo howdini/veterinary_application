@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Add Member Farmers",
+ "creation": "2024-05-20 10:36:00.248648",
+ "description": "All members within the societies that will be participating in the field collection exercises need to be included here.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 9,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-21 11:59:34.799424",
+ "modified_by": "Administrator",
+ "name": "Add Society Members (Farmers)",
+ "owner": "Administrator",
+ "reference_document": "Dairy Org Members",
+ "show_form_tour": 0,
+ "show_full_form": 1,
+ "title": "Add Society Members (Farmers)",
+ "validate_action": 1
+}

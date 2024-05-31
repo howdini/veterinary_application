@@ -1,0 +1,18 @@
+{
+ "action": "Create Entry",
+ "creation": "2024-05-28 13:27:39.241312",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-05-28 13:27:39.241312",
+ "modified_by": "Administrator",
+ "name": "Setup Dairy Module",
+ "owner": "Administrator",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Setup Dairy Module",
+ "validate_action": 1
+}
