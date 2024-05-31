@@ -402,17 +402,6 @@
   {
    "dependencies": "Cost Center",
    "hidden": 0,
-   "is_query_report": 0,
-   "label": "Vaccination Records",
-   "link_count": 0,
-   "link_to": "Vaccination Records",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "dependencies": "Cost Center",
-   "hidden": 0,
    "is_query_report": 1,
    "label": "Servicing Records",
    "link_count": 0,
@@ -420,9 +409,20 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "dependencies": "Cost Center",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vaccination Records",
+   "link_count": 0,
+   "link_to": "Vaccination Records",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-05-31 12:41:13.578883",
+ "modified": "2024-05-31 14:07:09.357972",
  "modified_by": "Administrator",
  "module": "Veterinary Application",
  "name": "Codic Veterinary",
